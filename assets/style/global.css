@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: OpenSans, Roboto, Helvetica Neue, Helvetica, Arial, Microsoft YaHei;
+  background-color: #f4f4f4;
+}/*# sourceMappingURL=global.css.map */

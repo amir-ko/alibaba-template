@@ -1,0 +1,1823 @@
+.top-head {
+  width: 100%;
+  height: 40px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-head > figure {
+  height: 40px;
+}
+.top-head > figure > img {
+  width: 170px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.top-head > .help {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 88%;
+  margin-right: -50px;
+  justify-content: end;
+}
+.top-head > .help > ul {
+  width: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+}
+.top-head > .help > ul > li {
+  display: flex;
+  height: 40px;
+  width: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-left: -20px;
+}
+.top-head > .help > ul > li:hover .back, .top-head > .help > ul > li:hover .blog, .top-head > .help > ul > li:hover .left, .top-head > .help > ul > li:hover .ship, .top-head > .help > ul > li:hover .text, .top-head > .help > ul > li:hover .basket, .top-head > .help > ul > li:hover .chev, .top-head > .help > ul > li:hover .english {
+  display: block;
+  z-index: 1;
+}
+.top-head > .help > ul > li > a {
+  color: black;
+  text-transform: capitalize;
+}
+.top-head > .help > ul > li > a:hover {
+  color: orangered;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 240px;
+  border-radius: 5px;
+  height: 490px;
+  width: 300px;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: gray;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > h4 {
+  align-self: start;
+  margin: 0 0 15px 0;
+  font-weight: 300;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > a {
+  width: 100%;
+  background-color: #FF6600;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 15px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > a:nth-of-type(1) {
+  color: white;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > a:nth-of-type(1):hover {
+  background-color: #E35300;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > a:nth-of-type(2) {
+  color: #E35300;
+  background-color: white;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > div {
+  height: 20px;
+  text-align: center;
+  position: relative;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > div::before, .top-head > .help > ul > :nth-of-type(1) > .back > li > div::after {
+  position: absolute;
+  content: "";
+  width: 105px;
+  height: 1px;
+  background-color: black;
+  top: 10px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > div::after {
+  left: 0;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > div::before {
+  right: 0;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .logo {
+  background-color: inherit;
+  margin-top: 15px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .logo > img {
+  margin-right: 10px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > p {
+  font-size: 9px;
+  margin-top: -10px;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > p a {
+  color: blue;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my {
+  height: 270px;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li {
+  margin-top: 12px;
+  width: 100%;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li > a {
+  text-transform: capitalize;
+  font-size: 16px;
+  transition: 0.4s ease-in-out;
+  color: black;
+  transition: 0.2s;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li > a:hover {
+  color: #FF6A00;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li:nth-of-type(1) {
+  font-weight: 600;
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li:hover {
+  color: rgb(255, 111, 0);
+}
+.top-head > .help > ul > :nth-of-type(1) > .back > li > .my > li:nth-of-type(6) {
+  border-top: 1px solid grey;
+  padding-top: 10px;
+}
+.top-head > .help > :nth-of-type(2) > li > .left {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 185px;
+  border-radius: 5px;
+  height: 210px;
+  width: 300px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li {
+  text-transform: capitalize;
+  width: 100%;
+  height: 190px;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li > h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li > p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li > a {
+  width: 100%;
+  background-color: #FF6600;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li > a:hover {
+  background-color: #EB650C;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li span {
+  font-size: 13px;
+  color: grey;
+}
+.top-head > .help > :nth-of-type(2) > li > .left > li span a {
+  color: blue;
+}
+.top-head > .help > :nth-of-type(3) li .text {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 185px;
+  border-radius: 5px;
+  height: 190px;
+  width: 280px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help > :nth-of-type(3) li .text li {
+  text-transform: capitalize;
+  width: 100%;
+  height: 190px;
+  color: #333;
+}
+.top-head > .help > :nth-of-type(3) li .text li > section {
+  display: flex;
+}
+.top-head > .help > :nth-of-type(3) li .text li > section > h5 {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  font-size: 15px;
+}
+.top-head > .help > :nth-of-type(3) li .text li > section > a {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  transition: 0.4s ease-in;
+}
+.top-head > .help > :nth-of-type(3) li .text li > section > a:hover {
+  color: orangered;
+}
+.top-head > .help > :nth-of-type(3) li .text li > p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.top-head > .help > :nth-of-type(3) li .text li > span {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.top-head > .help > :nth-of-type(3) li .text li > div {
+  padding-top: 5px;
+  font-size: 12px;
+}
+.top-head > .help > :nth-of-type(3) li .text li > a {
+  width: 100%;
+  background-color: #FF6A00;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.top-head > .help > :nth-of-type(3) li .text li > a:hover {
+  background-color: rgb(218, 97, 53);
+}
+.top-head > .help :nth-of-type(4) li .basket {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 225px;
+  border-radius: 5px;
+  height: 50px;
+  width: 280px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help :nth-of-type(4) li .basket > li {
+  text-transform: capitalize;
+  width: 100%;
+  height: 190px;
+  position: relative;
+}
+.top-head > .help :nth-of-type(4) li .basket > li > p {
+  font-size: 15px;
+  font-weight: 300;
+}
+.top-head > .help :nth-of-type(4) li .basket > li > p > a {
+  color: blue;
+}
+.top-head > .help :nth-of-type(5) li .chev {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-left: 200px;
+  border-radius: 5px;
+  height: 140px;
+  width: 250px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help :nth-of-type(5) li .chev li {
+  text-transform: capitalize;
+  width: 100%;
+  color: white;
+  margin-bottom: 5px;
+}
+.top-head > .help :nth-of-type(5) li .chev a {
+  transition: 0.2s ease-in-out;
+  color: #333;
+  font-weight: 350;
+}
+.top-head > .help :nth-of-type(5) li .chev a:hover {
+  color: #FF6A00;
+}
+.top-head > .help :nth-of-type(5) a span {
+  font-weight: 350;
+}
+.top-head > .help :nth-of-type(5) a i {
+  font-size: 10px;
+}
+.top-head > .help :nth-of-type(6) > li > .english {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 200px;
+  border-radius: 5px;
+  height: 190px;
+  width: 300px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help :nth-of-type(6) > li > .english > li {
+  text-transform: capitalize;
+  width: 100%;
+  color: #333;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > h4 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > div {
+  color: gray;
+  font-weight: 300;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > :nth-of-type(1) {
+  text-transform: capitalize;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > :nth-of-type(1) option {
+  text-transform: capitalize;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > :nth-of-type(2) {
+  text-transform: capitalize;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > :nth-of-type(2) option {
+  text-transform: uppercase;
+}
+.top-head > .help :nth-of-type(6) > li > .english > li > a {
+  border: 1px solid orangered;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  width: 80px;
+  height: 30px;
+  margin-left: 190px;
+  margin-top: 5px;
+  font-size: 17px;
+  background-color: #FF6A00;
+  color: white;
+  border-radius: 5px;
+  font-weight: 350;
+}
+.top-head > .help :nth-of-type(6) a span {
+  font-weight: 350;
+}
+.top-head > .help :nth-of-type(6) a i {
+  font-size: 10px;
+}
+.top-head > .help :nth-of-type(6), .top-head > .help :nth-of-type(7) {
+  width: 105px;
+}
+.top-head > .help :nth-of-type(6) > li, .top-head > .help :nth-of-type(7) > li {
+  width: 105px;
+}
+.top-head > .help :nth-of-type(7) li .ship {
+  position: absolute;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+  background-color: whitesmoke;
+  margin-right: 250px;
+  border-radius: 5px;
+  height: 320px;
+  width: 350px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+}
+.top-head > .help :nth-of-type(7) li .ship > li {
+  text-transform: capitalize;
+  width: 100%;
+  color: #333;
+  margin-top: 10px;
+}
+.top-head > .help :nth-of-type(7) li .ship > li > h4 {
+  margin-bottom: 5px;
+  color: #333333;
+}
+.top-head > .help :nth-of-type(7) li .ship > li p {
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #5F5F5F;
+}
+.top-head > .help :nth-of-type(7) li .ship > li a {
+  border: 1px solid orangered;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 320px;
+  height: 30px;
+  margin-top: 25px;
+  font-size: 15px;
+  background-color: #FF6A00;
+  color: white;
+  font-weight: 350;
+  border-radius: 5px;
+}
+.top-head > .help :nth-of-type(7) li .ship > li > div {
+  height: 20px;
+  text-align: center;
+  position: relative;
+  color: #DBCEC7;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.top-head > .help :nth-of-type(7) li .ship > li > div::before, .top-head > .help :nth-of-type(7) li .ship > li > div::after {
+  position: absolute;
+  content: "";
+  width: 145px;
+  height: 1px;
+  background-color: gray;
+  top: 10px;
+}
+.top-head > .help :nth-of-type(7) li .ship > li > div::after {
+  left: 0;
+}
+.top-head > .help :nth-of-type(7) li .ship > li > div::before {
+  right: 0;
+}
+.top-head > .help :nth-of-type(7) li .ship select {
+  width: 100%;
+  height: 30px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.top-head > .help :nth-of-type(7) li .ship input {
+  width: 100%;
+  height: 30px;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+.top-head > .help :nth-of-type(7) li .ship a {
+  border: 1px solid orangered;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 15px;
+  background-color: #FF6A00;
+  color: white;
+  font-weight: 350;
+  border-radius: 3px;
+  margin-right: 220px;
+}
+.top-head > .help :nth-of-type(7) a span {
+  font-weight: 350;
+}
+.top-head > .help :nth-of-type(7) a i {
+  font-size: 10px;
+}
+.top-head > .help :nth-of-type(8) li .blog {
+  position: absolute;
+  background-color: whitesmoke;
+  margin-right: 230px;
+  border-radius: 5px;
+  height: 320px;
+  width: 280px;
+  top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+  display: none;
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.32);
+}
+.top-head > .help :nth-of-type(8) li .blog h4 {
+  padding-bottom: 5px;
+  color: #22223F;
+  font-weight: 500;
+  cursor: auto !important;
+}
+.top-head > .help :nth-of-type(8) li .blog li {
+  padding-bottom: 5px;
+  width: 100%;
+}
+.top-head > .help :nth-of-type(8) li .blog li a {
+  color: #333333;
+  font-weight: 300;
+  transform: 0.4s;
+}
+.top-head > .help :nth-of-type(8) li .blog li a:hover {
+  color: #FF6A00;
+}
+.top-head > .help :nth-of-type(8) li .blog .global {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.mainhead {
+  background-image: url(../img/head.jpg);
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+form {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 75px;
+}
+form > h2 {
+  position: absolute;
+  color: white;
+  bottom: 75px;
+  width: 50%;
+  padding-left: 200px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-weight: 400;
+  cursor: pointer;
+}
+form h3 {
+  position: absolute;
+  color: white;
+  bottom: 75px;
+  left: 750px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-weight: 400;
+  cursor: pointer;
+}
+form > input:first-of-type {
+  border-radius: 50px;
+  position: relative;
+  width: 730px;
+  height: 40px;
+  font-size: 15px;
+}
+form > input:last-of-type {
+  position: absolute;
+  right: 390px;
+  border-radius: 50px;
+  height: 40px;
+  width: 120px;
+  background-color: #FF6A00;
+  font-size: 17px;
+  color: white;
+}
+form i {
+  cursor: pointer;
+}
+form i:first-of-type {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 35px;
+  right: 440px;
+  color: grey;
+  font-size: 20px;
+  transition: 0.4s ease-in-out;
+}
+form i:first-of-type:hover {
+  color: #DA703E;
+}
+form i:last-of-type {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  right: 400px;
+  color: white;
+  font-size: 16px;
+}
+
+.ship {
+  width: 80%;
+  height: 100px;
+  background-color: #FFFFFF;
+  margin-left: 150px;
+  border-radius: 15px;
+  position: absolute;
+  top: 180px;
+  display: flex;
+}
+.ship > div {
+  width: 430px;
+  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+.ship > div > figure > img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 75px;
+}
+.ship > div > div {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+.ship > div > div h3 {
+  margin-bottom: 5px;
+  color: black;
+}
+.ship > div > div > p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #76768C;
+}
+
+.market {
+  width: 80%;
+  background-color: white;
+  margin: 100px auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 70px;
+}
+.market > .my {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.market > .my > h3 {
+  display: flex;
+  width: 90%;
+  border-bottom: 1px solid gray;
+  height: 40px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  color: #333;
+}
+.market > .my nav {
+  width: 90%;
+  height: 450px;
+  align-items: center;
+}
+.market > .my nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.market > .my nav > ul > li {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+.market > .my nav > ul > li:hover .alibaba, .market > .my nav > ul > li:hover .apparel, .market > .my nav > ul > li:hover .acc, .market > .my nav > ul > li:hover .sport, .market > .my nav > ul > li:hover .indust, .market > .my nav > ul > li:hover .garden, .market > .my nav > ul > li:hover .beauty {
+  width: 720px;
+}
+.market > .my nav > ul > li:hover .all {
+  display: block;
+}
+.market > .my nav > ul > li > figure > img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.market > .my nav > ul > li > a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 400;
+  color: #333333;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li > a:hover {
+  color: #FF812F;
+}
+.market > .my nav > ul > li i {
+  margin-top: 10px;
+  color: #333;
+  cursor: pointer;
+}
+.market > .my nav > ul > li .alibaba, .market > .my nav > ul > li .apparel, .market > .my nav > ul > li .acc, .market > .my nav > ul > li .sport, .market > .my nav > ul > li .indust, .market > .my nav > ul > li .garden, .market > .my nav > ul > li .beauty {
+  width: 0px;
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  overflow: hidden;
+  left: 248px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 10px;
+  top: -50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  margin-bottom: 6px;
+  padding-top: 15px;
+  text-transform: capitalize;
+}
+.market > .my nav > ul > li .alibaba > .hard, .market > .my nav > ul > li .apparel > .hard, .market > .my nav > ul > li .acc > .hard, .market > .my nav > ul > li .sport > .hard, .market > .my nav > ul > li .indust > .hard, .market > .my nav > ul > li .garden > .hard, .market > .my nav > ul > li .beauty > .hard {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .alibaba > .hard li, .market > .my nav > ul > li .apparel > .hard li, .market > .my nav > ul > li .acc > .hard li, .market > .my nav > ul > li .sport > .hard li, .market > .my nav > ul > li .indust > .hard li, .market > .my nav > ul > li .garden > .hard li, .market > .my nav > ul > li .beauty > .hard li {
+  width: 100%;
+}
+.market > .my nav > ul > li .alibaba > .hard li > a, .market > .my nav > ul > li .apparel > .hard li > a, .market > .my nav > ul > li .acc > .hard li > a, .market > .my nav > ul > li .sport > .hard li > a, .market > .my nav > ul > li .indust > .hard li > a, .market > .my nav > ul > li .garden > .hard li > a, .market > .my nav > ul > li .beauty > .hard li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .alibaba > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .apparel > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .acc > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .sport > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .indust > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .garden > .hard li:nth-of-type(1) a, .market > .my nav > ul > li .beauty > .hard li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .alibaba > .hard li:hover a, .market > .my nav > ul > li .apparel > .hard li:hover a, .market > .my nav > ul > li .acc > .hard li:hover a, .market > .my nav > ul > li .sport > .hard li:hover a, .market > .my nav > ul > li .indust > .hard li:hover a, .market > .my nav > ul > li .garden > .hard li:hover a, .market > .my nav > ul > li .beauty > .hard li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .alibaba .cables, .market > .my nav > ul > li .apparel .cables, .market > .my nav > ul > li .acc .cables, .market > .my nav > ul > li .sport .cables, .market > .my nav > ul > li .indust .cables, .market > .my nav > ul > li .garden .cables, .market > .my nav > ul > li .beauty .cables {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .alibaba .cables > li, .market > .my nav > ul > li .apparel .cables > li, .market > .my nav > ul > li .acc .cables > li, .market > .my nav > ul > li .sport .cables > li, .market > .my nav > ul > li .indust .cables > li, .market > .my nav > ul > li .garden .cables > li, .market > .my nav > ul > li .beauty .cables > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .alibaba .cables > li > a, .market > .my nav > ul > li .apparel .cables > li > a, .market > .my nav > ul > li .acc .cables > li > a, .market > .my nav > ul > li .sport .cables > li > a, .market > .my nav > ul > li .indust .cables > li > a, .market > .my nav > ul > li .garden .cables > li > a, .market > .my nav > ul > li .beauty .cables > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .alibaba .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .cables > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .cables > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .alibaba .cables > li:hover a, .market > .my nav > ul > li .apparel .cables > li:hover a, .market > .my nav > ul > li .acc .cables > li:hover a, .market > .my nav > ul > li .sport .cables > li:hover a, .market > .my nav > ul > li .indust .cables > li:hover a, .market > .my nav > ul > li .garden .cables > li:hover a, .market > .my nav > ul > li .beauty .cables > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .alibaba .project, .market > .my nav > ul > li .apparel .project, .market > .my nav > ul > li .acc .project, .market > .my nav > ul > li .sport .project, .market > .my nav > ul > li .indust .project, .market > .my nav > ul > li .garden .project, .market > .my nav > ul > li .beauty .project {
+  width: 32%;
+  margin-right: 20px;
+  padding-left: 55px;
+}
+.market > .my nav > ul > li .alibaba .project > li, .market > .my nav > ul > li .apparel .project > li, .market > .my nav > ul > li .acc .project > li, .market > .my nav > ul > li .sport .project > li, .market > .my nav > ul > li .indust .project > li, .market > .my nav > ul > li .garden .project > li, .market > .my nav > ul > li .beauty .project > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .alibaba .project > li > a, .market > .my nav > ul > li .apparel .project > li > a, .market > .my nav > ul > li .acc .project > li > a, .market > .my nav > ul > li .sport .project > li > a, .market > .my nav > ul > li .indust .project > li > a, .market > .my nav > ul > li .garden .project > li > a, .market > .my nav > ul > li .beauty .project > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .alibaba .project > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .project > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .project > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .project > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .project > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .project > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .project > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .alibaba .project > li:hover a, .market > .my nav > ul > li .apparel .project > li:hover a, .market > .my nav > ul > li .acc .project > li:hover a, .market > .my nav > ul > li .sport .project > li:hover a, .market > .my nav > ul > li .indust .project > li:hover a, .market > .my nav > ul > li .garden .project > li:hover a, .market > .my nav > ul > li .beauty .project > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .alibaba .power, .market > .my nav > ul > li .apparel .power, .market > .my nav > ul > li .acc .power, .market > .my nav > ul > li .sport .power, .market > .my nav > ul > li .indust .power, .market > .my nav > ul > li .garden .power, .market > .my nav > ul > li .beauty .power {
+  width: 32%;
+  padding-left: 20px;
+}
+.market > .my nav > ul > li .alibaba .power > li, .market > .my nav > ul > li .apparel .power > li, .market > .my nav > ul > li .acc .power > li, .market > .my nav > ul > li .sport .power > li, .market > .my nav > ul > li .indust .power > li, .market > .my nav > ul > li .garden .power > li, .market > .my nav > ul > li .beauty .power > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .alibaba .power > li a, .market > .my nav > ul > li .apparel .power > li a, .market > .my nav > ul > li .acc .power > li a, .market > .my nav > ul > li .sport .power > li a, .market > .my nav > ul > li .indust .power > li a, .market > .my nav > ul > li .garden .power > li a, .market > .my nav > ul > li .beauty .power > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .alibaba .power > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .power > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .power > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .power > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .power > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .power > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .power > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .alibaba .power > li:hover a, .market > .my nav > ul > li .apparel .power > li:hover a, .market > .my nav > ul > li .acc .power > li:hover a, .market > .my nav > ul > li .sport .power > li:hover a, .market > .my nav > ul > li .indust .power > li:hover a, .market > .my nav > ul > li .garden .power > li:hover a, .market > .my nav > ul > li .beauty .power > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .alibaba .use, .market > .my nav > ul > li .apparel .use, .market > .my nav > ul > li .acc .use, .market > .my nav > ul > li .sport .use, .market > .my nav > ul > li .indust .use, .market > .my nav > ul > li .garden .use, .market > .my nav > ul > li .beauty .use {
+  width: 32%;
+  margin-left: 20px;
+}
+.market > .my nav > ul > li .alibaba .use > li, .market > .my nav > ul > li .apparel .use > li, .market > .my nav > ul > li .acc .use > li, .market > .my nav > ul > li .sport .use > li, .market > .my nav > ul > li .indust .use > li, .market > .my nav > ul > li .garden .use > li, .market > .my nav > ul > li .beauty .use > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .alibaba .use > li a, .market > .my nav > ul > li .apparel .use > li a, .market > .my nav > ul > li .acc .use > li a, .market > .my nav > ul > li .sport .use > li a, .market > .my nav > ul > li .indust .use > li a, .market > .my nav > ul > li .garden .use > li a, .market > .my nav > ul > li .beauty .use > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .alibaba .use > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .use > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .use > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .use > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .use > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .use > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .use > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .alibaba .use > li:hover a, .market > .my nav > ul > li .apparel .use > li:hover a, .market > .my nav > ul > li .acc .use > li:hover a, .market > .my nav > ul > li .sport .use > li:hover a, .market > .my nav > ul > li .indust .use > li:hover a, .market > .my nav > ul > li .garden .use > li:hover a, .market > .my nav > ul > li .beauty .use > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .alibaba .consumer, .market > .my nav > ul > li .apparel .consumer, .market > .my nav > ul > li .acc .consumer, .market > .my nav > ul > li .sport .consumer, .market > .my nav > ul > li .indust .consumer, .market > .my nav > ul > li .garden .consumer, .market > .my nav > ul > li .beauty .consumer {
+  width: 25%;
+  margin-left: 30px;
+}
+.market > .my nav > ul > li .alibaba .consumer a, .market > .my nav > ul > li .apparel .consumer a, .market > .my nav > ul > li .acc .consumer a, .market > .my nav > ul > li .sport .consumer a, .market > .my nav > ul > li .indust .consumer a, .market > .my nav > ul > li .garden .consumer a, .market > .my nav > ul > li .beauty .consumer a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .apparel {
+  top: -100px;
+}
+.market > .my nav > ul > li .apparel > .belt, .market > .my nav > ul > li .apparel .wedding, .market > .my nav > ul > li .apparel .gloves {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .apparel > .belt > li, .market > .my nav > ul > li .apparel .wedding > li, .market > .my nav > ul > li .apparel .gloves > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .apparel > .belt > li > a, .market > .my nav > ul > li .apparel .wedding > li > a, .market > .my nav > ul > li .apparel .gloves > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .apparel > .belt > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .wedding > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .gloves > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .apparel > .belt > li:hover a, .market > .my nav > ul > li .apparel .wedding > li:hover a, .market > .my nav > ul > li .apparel .gloves > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .apparel .gloves {
+  padding-left: 55px;
+}
+.market > .my nav > ul > li .apparel .shawls, .market > .my nav > ul > li .apparel .tie, .market > .my nav > ul > li .apparel .hat {
+  width: 32%;
+  padding-left: 20px;
+}
+.market > .my nav > ul > li .apparel .shawls > li, .market > .my nav > ul > li .apparel .tie > li, .market > .my nav > ul > li .apparel .hat > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .apparel .shawls > li a, .market > .my nav > ul > li .apparel .tie > li a, .market > .my nav > ul > li .apparel .hat > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .apparel .shawls > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .tie > li:nth-of-type(1) a, .market > .my nav > ul > li .apparel .hat > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .apparel .shawls > li:hover a, .market > .my nav > ul > li .apparel .tie > li:hover a, .market > .my nav > ul > li .apparel .hat > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .acc {
+  top: -150px;
+}
+.market > .my nav > ul > li .acc > .light, .market > .my nav > ul > li .acc .universal, .market > .my nav > ul > li .acc .news {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .acc > .light > li, .market > .my nav > ul > li .acc .universal > li, .market > .my nav > ul > li .acc .news > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .acc > .light > li > a, .market > .my nav > ul > li .acc .universal > li > a, .market > .my nav > ul > li .acc .news > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .acc > .light > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .universal > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .news > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .acc > .light > li:hover a, .market > .my nav > ul > li .acc .universal > li:hover a, .market > .my nav > ul > li .acc .news > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .acc .cool, .market > .my nav > ul > li .acc .train, .market > .my nav > ul > li .acc .railway {
+  width: 32%;
+  padding-left: 20px;
+}
+.market > .my nav > ul > li .acc .cool > li, .market > .my nav > ul > li .acc .train > li, .market > .my nav > ul > li .acc .railway > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .acc .cool > li a, .market > .my nav > ul > li .acc .train > li a, .market > .my nav > ul > li .acc .railway > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .acc .cool > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .train > li:nth-of-type(1) a, .market > .my nav > ul > li .acc .railway > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .acc .cool > li:hover a, .market > .my nav > ul > li .acc .train > li:hover a, .market > .my nav > ul > li .acc .railway > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .sport {
+  top: -200px;
+}
+.market > .my nav > ul > li .sport > .feild, .market > .my nav > ul > li .sport .scooter, .market > .my nav > ul > li .sport .boat {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .sport > .feild > li, .market > .my nav > ul > li .sport .scooter > li, .market > .my nav > ul > li .sport .boat > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .sport > .feild > li > a, .market > .my nav > ul > li .sport .scooter > li > a, .market > .my nav > ul > li .sport .boat > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .sport > .feild > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .scooter > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .boat > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .sport > .feild > li:hover a, .market > .my nav > ul > li .sport .scooter > li:hover a, .market > .my nav > ul > li .sport .boat > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .sport .toy, .market > .my nav > ul > li .sport .campers, .market > .my nav > ul > li .sport .sou {
+  width: 32%;
+  padding-left: 20px;
+}
+.market > .my nav > ul > li .sport .toy > li, .market > .my nav > ul > li .sport .campers > li, .market > .my nav > ul > li .sport .sou > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .sport .toy > li a, .market > .my nav > ul > li .sport .campers > li a, .market > .my nav > ul > li .sport .sou > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .sport .toy > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .campers > li:nth-of-type(1) a, .market > .my nav > ul > li .sport .sou > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .sport .toy > li:hover a, .market > .my nav > ul > li .sport .campers > li:hover a, .market > .my nav > ul > li .sport .sou > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .indust {
+  top: -250px;
+}
+.market > .my nav > ul > li .indust > .metal, .market > .my nav > ul > li .indust .wood, .market > .my nav > ul > li .indust .weld {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .indust > .metal > li, .market > .my nav > ul > li .indust .wood > li, .market > .my nav > ul > li .indust .weld > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .indust > .metal > li > a, .market > .my nav > ul > li .indust .wood > li > a, .market > .my nav > ul > li .indust .weld > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .indust > .metal > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .wood > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .weld > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .indust > .metal > li:hover a, .market > .my nav > ul > li .indust .wood > li:hover a, .market > .my nav > ul > li .indust .weld > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .indust .manu, .market > .my nav > ul > li .indust .comp, .market > .my nav > ul > li .indust .elec {
+  width: 32%;
+  padding-left: 20px;
+}
+.market > .my nav > ul > li .indust .manu > li, .market > .my nav > ul > li .indust .comp > li, .market > .my nav > ul > li .indust .elec > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .indust .manu > li a, .market > .my nav > ul > li .indust .comp > li a, .market > .my nav > ul > li .indust .elec > li a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .indust .manu > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .comp > li:nth-of-type(1) a, .market > .my nav > ul > li .indust .elec > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .indust .manu > li:hover a, .market > .my nav > ul > li .indust .comp > li:hover a, .market > .my nav > ul > li .indust .elec > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .garden {
+  top: -300px;
+}
+.market > .my nav > ul > li .garden > .supp, .market > .my nav > ul > li .garden .house, .market > .my nav > ul > li .garden .smoke, .market > .my nav > ul > li .garden .org, .market > .my nav > ul > li .garden .scale, .market > .my nav > ul > li .garden .decor {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .garden > .supp > li, .market > .my nav > ul > li .garden .house > li, .market > .my nav > ul > li .garden .smoke > li, .market > .my nav > ul > li .garden .org > li, .market > .my nav > ul > li .garden .scale > li, .market > .my nav > ul > li .garden .decor > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .garden > .supp > li > a, .market > .my nav > ul > li .garden .house > li > a, .market > .my nav > ul > li .garden .smoke > li > a, .market > .my nav > ul > li .garden .org > li > a, .market > .my nav > ul > li .garden .scale > li > a, .market > .my nav > ul > li .garden .decor > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .garden > .supp > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .house > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .smoke > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .org > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .scale > li:nth-of-type(1) a, .market > .my nav > ul > li .garden .decor > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .garden > .supp > li:hover a, .market > .my nav > ul > li .garden .house > li:hover a, .market > .my nav > ul > li .garden .smoke > li:hover a, .market > .my nav > ul > li .garden .org > li:hover a, .market > .my nav > ul > li .garden .scale > li:hover a, .market > .my nav > ul > li .garden .decor > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .beauty {
+  top: -350px;
+}
+.market > .my nav > ul > li .beauty > .skin, .market > .my nav > ul > li .beauty .body, .market > .my nav > ul > li .beauty .makeup, .market > .my nav > ul > li .beauty .nail, .market > .my nav > ul > li .beauty .perfume, .market > .my nav > ul > li .beauty .equip {
+  width: 32%;
+  padding-left: 25px;
+}
+.market > .my nav > ul > li .beauty > .skin > li, .market > .my nav > ul > li .beauty .body > li, .market > .my nav > ul > li .beauty .makeup > li, .market > .my nav > ul > li .beauty .nail > li, .market > .my nav > ul > li .beauty .perfume > li, .market > .my nav > ul > li .beauty .equip > li {
+  width: 100%;
+}
+.market > .my nav > ul > li .beauty > .skin > li > a, .market > .my nav > ul > li .beauty .body > li > a, .market > .my nav > ul > li .beauty .makeup > li > a, .market > .my nav > ul > li .beauty .nail > li > a, .market > .my nav > ul > li .beauty .perfume > li > a, .market > .my nav > ul > li .beauty .equip > li > a {
+  color: #C5C5C5;
+  font-size: 12px;
+  margin-bottom: 6px;
+  transition: 0.2s ease-in-out;
+}
+.market > .my nav > ul > li .beauty > .skin > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .body > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .makeup > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .nail > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .perfume > li:nth-of-type(1) a, .market > .my nav > ul > li .beauty .equip > li:nth-of-type(1) a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.market > .my nav > ul > li .beauty > .skin > li:hover a, .market > .my nav > ul > li .beauty .body > li:hover a, .market > .my nav > ul > li .beauty .makeup > li:hover a, .market > .my nav > ul > li .beauty .nail > li:hover a, .market > .my nav > ul > li .beauty .perfume > li:hover a, .market > .my nav > ul > li .beauty .equip > li:hover a {
+  color: black;
+}
+.market > .my nav > ul > li .all {
+  top: -360px;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 720px;
+  background-color: rgb(249, 249, 249);
+  z-index: 1;
+  left: 248px;
+  position: absolute;
+  height: 380px;
+  padding: 20px 20px 10px;
+  display: none;
+  line-height: 1.282;
+  border-radius: 8px;
+}
+.market > .my nav > ul > li .all > div {
+  margin-bottom: 5px;
+}
+.market > .my nav > ul > li .all > div a, .market > .my nav > ul > li .all > div span {
+  color: #C5C5C5;
+  transition: 0.4s ease-in-out;
+}
+.market > .my nav > ul > li .all > div a:hover, .market > .my nav > ul > li .all > div span:hover {
+  color: black;
+}
+
+.slider {
+  display: flex;
+  width: 60%;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+.slider > figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+.slider > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.slider > figure:nth-of-type(1) {
+  animation: img1 10s linear 1s infinite;
+}
+@keyframes img1 {
+  0% {
+    left: 0;
+  }
+  30% {
+    left: 0;
+  }
+  36% {
+    left: 100%;
+  }
+  36.000001% {
+    left: -100%;
+  }
+  94% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.slider > figure:nth-of-type(2) {
+  animation: img2 10s linear 1s infinite;
+}
+@keyframes img2 {
+  0% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  36% {
+    left: 0;
+  }
+  63% {
+    left: 0;
+  }
+  69% {
+    left: 100%;
+  }
+  69.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.slider > figure:nth-of-type(3) {
+  animation: img3 10s linear 0.1s infinite;
+}
+@keyframes img3 {
+  0% {
+    left: -100%;
+  }
+  63% {
+    left: -100%;
+  }
+  69% {
+    left: 0;
+  }
+  94% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.new {
+  background-color: white;
+  width: 20%;
+  margin-left: 10px;
+}
+.new > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  height: 250px;
+}
+.new > div > h3 {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 10px;
+  color: black;
+}
+.new > div > h3 > i {
+  font-size: 25px;
+  color: black;
+}
+.new > div > a {
+  background-color: #F4F4F4;
+  width: 95%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  text-transform: capitalize;
+}
+.new > div > a > span {
+  margin-left: 10px;
+}
+.new > div > a > figure {
+  margin-right: 10px;
+}
+.new > div > a > figure > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.new .join {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+}
+.new .join > h3 {
+  align-self: start;
+  margin: 10px 0 0 10px;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+}
+.new .join > a {
+  width: 100%;
+  background-color: #FF6600;
+  margin-bottom: 12px;
+  text-align: center;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.new .join > a:nth-of-type(2) {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.arrive {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px auto;
+  transform: translateY(-100px);
+  height: 300px;
+}
+.arrive > div {
+  width: 25%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  margin-top: 20px;
+  flex-grow: 1;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.arrive > div > h3 {
+  display: inline;
+  color: #333;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: left;
+  width: 100%;
+}
+.arrive > div > figure {
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
+  margin-right: 25px;
+}
+.arrive > div > figure img {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.arrive > div > figure img:hover {
+  scale: 1.1;
+}
+.arrive > div > figure figcaption {
+  font-size: 12px;
+  font-weight: 700;
+  height: 14px;
+  line-height: 14px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+.arrive > div > figure span {
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  line-height: 14px;
+  margin-top: 2px;
+  overflow: hidden;
+  text-align: center;
+  color: #666;
+}
+
+.protect {
+  width: 80%;
+  height: 50px;
+  margin-left: 150px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: space-between;
+}
+.protect > div {
+  width: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.protect > div > div {
+  width: 100%;
+  background-color: white;
+  height: 200px;
+  cursor: pointer;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.protect > div > div > figure {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  transition: 0.2s ease-in-out;
+}
+.protect > div > div > figure:nth-of-type(1) figcaption:hover {
+  background-color: #D04A0A;
+}
+.protect > div > div > figure:nth-of-type(2) > figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.protect > div > div > figure:nth-of-type(2) > figcaption span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.protect > div > div > figure:nth-of-type(2) > figcaption span:nth-of-type(1) {
+  font-weight: bold;
+}
+.protect > div > div > figure > img {
+  width: 130px;
+  height: 130px;
+  transition: 0.4s ease-in-out;
+}
+.protect > div > div > figure > img:hover {
+  scale: 1.05;
+}
+.protect > div > div > figure > figcaption {
+  width: 150px;
+  height: 40px;
+  background-color: #FF6600;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+.protect > div > div > figure > figcaption > img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.protect > div > div > figure > figcaption > a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+}
+.protect > div:nth-of-type(2) > span {
+  width: 80%;
+  height: 5px;
+  display: flex;
+  background-color: #DCDEE3;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.protect > div:nth-of-type(3) > span {
+  width: 50%;
+  height: 5px;
+  display: flex;
+  background-color: #DCDEE3;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.protect > div > a {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #333;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+.moq {
+  width: 80%;
+  margin-top: 250px;
+  margin-left: 150px;
+}
+.moq > h3 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.moq > article {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.moq > article > figure {
+  width: 19%;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+.moq > article > figure > img {
+  width: 200px;
+  height: 200px;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.moq > article > figure > figcaption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+.moq > article > figure > figcaption > p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.moq > article > figure > figcaption span {
+  width: 100%;
+}
+.moq > article > figure > figcaption span:nth-of-type(1) {
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+.moq > article > figure > figcaption span:nth-of-type(2) {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.inception {
+  width: 80%;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.inception > div:nth-of-type(1) {
+  display: flex;
+  width: 100%;
+}
+.inception > div:nth-of-type(1) > p {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+  font-size: 16px;
+}
+.inception > div:nth-of-type(1) > h3 {
+  font-size: 22px;
+  line-height: 28px;
+}
+.inception > div:nth-of-type(2) {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.inception > div:nth-of-type(2) > figure {
+  width: 24%;
+  height: 290px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: white;
+}
+.inception > div:nth-of-type(2) > figure > div {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 100%;
+  height: 70%;
+  background-color: rgba(18, 18, 18, 0.7333333333);
+  transition: 0.4s ease-in-out;
+}
+.inception > div:nth-of-type(2) > figure:hover div {
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.inception > div:nth-of-type(2) > figure:hover div > h3 {
+  padding-left: 20px;
+  text-transform: capitalize;
+}
+.inception > div:nth-of-type(2) > figure:hover div > h3:nth-of-type(1) {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.inception > div:nth-of-type(2) > figure:hover div > h3:nth-of-type(2), .inception > div:nth-of-type(2) > figure:hover div > h3:nth-of-type(3) {
+  height: 26px;
+  line-height: 26px;
+  padding-left: 11px;
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  color: white;
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.inception > div:nth-of-type(2) > figure:hover div > h3:nth-of-type(4) {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: white;
+  margin-top: 50px;
+}
+.inception > div:nth-of-type(2) > figure:hover img, .inception > div:nth-of-type(2) > figure:hover figcaption {
+  filter: blur(9px);
+}
+.inception > div:nth-of-type(2) > figure > img {
+  -o-object-position: right;
+     object-position: right;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: blueviolet;
+}
+.inception > div:nth-of-type(2) > figure > figcaption {
+  position: absolute;
+  top: 60px;
+  left: 25px;
+  width: 300px;
+}
+.inception > div:nth-of-type(2) > figure > figcaption > p {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+}
+.inception > div:nth-of-type(2) > figure > figcaption span {
+  width: 15px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+}
+.inception > div:nth-of-type(2) > figure > span {
+  width: 100%;
+  display: block;
+  padding-left: 20px;
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.inception > div:nth-of-type(2) > figure > span:nth-of-type(2) {
+  color: hsla(0, 0%, 40%, 0.8);
+  font-size: 15px;
+  line-height: 14px;
+  margin: 0;
+  font-weight: 300;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.reg {
+  width: 80%;
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.reg > h3 {
+  width: 100%;
+}
+.reg > div {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.reg > div:hover span {
+  color: #FD6A00;
+}
+.reg > div > span {
+  margin-left: 10px;
+  text-transform: capitalize;
+  color: hsla(0, 0%, 40%, 0.8);
+}
+.reg > div img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: #445268;
+  height: 480px;
+}
+footer > .foot {
+  width: 80%;
+  height: 160px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+footer > .foot > ul {
+  padding-left: 16px;
+  margin-top: 20px;
+}
+footer > .foot > ul > span {
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 5px;
+}
+footer > .foot > ul li {
+  font-size: 12px;
+  line-height: 20px;
+}
+footer > .foot > ul li > a {
+  color: #fff;
+}
+footer > .foot > ul li > a:hover {
+  border-bottom: solid 1.5px white;
+}
+footer .lastfoot {
+  border-top: 1px solid black;
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 150px;
+}
+footer .lastfoot > span {
+  color: #fff;
+  width: 100%;
+  height: 30%;
+  display: block;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+}
+footer .lastfoot a {
+  color: #fff;
+  margin-left: 10px;
+}
+footer .lastfoot div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+footer .lastfoot div > a {
+  border-right: 1ps solid #fff;
+  color: #fff;
+  margin-right: 5px;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+footer .lastfoot div > a:hover {
+  border-bottom: 1px solid #fff;
+}
+footer .lastfoot .browser > span {
+  font-size: 12px;
+  color: #fff;
+}
+footer .lastfoot .browser > a {
+  margin-left: 5px;
+}
+footer .lastfoot .browser > a:hover {
+  border-bottom: 1px solid #fff;
+}
+footer .lastfoot span {
+  display: flex;
+  justify-content: center;
+  cursor: text;
+}
+footer .lastfoot span > strong {
+  color: red;
+  margin-left: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=master.css.map */
